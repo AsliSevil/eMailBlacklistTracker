@@ -11,21 +11,21 @@ search_blacklist.searchForBlacklist()
 
 # -------------------------------------------------------------------
 #MXTOOLBOX
-#search_blacklist = blacklistSearch.MxToolbox(ip)
-#search_blacklist.searchForBlacklist()
+search_blacklist = blacklistSearch.MxToolbox(ip)
+search_blacklist.searchForBlacklist()
 
 
 
 #WHAT IS MY IP
-#search_blacklist = blacklistSearch.WhatIsMyIp(ip)
-#search_blacklist.searchForBlacklist()
+search_blacklist = blacklistSearch.WhatIsMyIp(ip)
+search_blacklist.searchForBlacklist()
 
 # -------------------------------------------------------------------
 
 
 
 
-'''
+
 # -------------------------------------------------------------------
 # dnsblInfo:
 fileDnsbl = open('dnsblInfo-list.txt', 'r')
@@ -42,5 +42,5 @@ for line in LinesDnsbl:
     dnsblInfo.searchService()
 # -------------------------------------------------------------------
 
-'''
+
 
